@@ -1,0 +1,14 @@
+[project]
+name = "pdf-page-counter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pymupdf>=1.27.2.3",
+    "rich>=15.0.0",
+    "typer>=0.25.1",
+]
+
+[tool.ruff]
+line-length = 79
